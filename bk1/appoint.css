@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+    /* border: 2px solid black; */
+  }
+  
+  .grid-item {
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: white;
+    position: relative;
+  }
+  .grid-item:nth-child(1) {
+    background-image: url(./newimages/OIP\ \(1\).jpg);
+  }
+  
+  .grid-item:nth-child(2) {
+    background-image: url(./newimages/opiimage2.jpg);
+  }
+  .grid-item p {
+    margin-bottom: 50px;
+  }
+  
+  .grid-item #heder {
+    /* font-weight: 300px;  */
+    font-size: 35px;
+    padding-bottom: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  
+  .price {
+    background: rgb(255, 212, 41);
+    color: black;
+    border-radius: 50%;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 14px;
+    position: absolute;
+    margin-top: -40px;
+  }
+  
+  .price span {
+    color: rgb(19, 180, 5);
+    font-weight: bolder;
+    position: relative;
+  }
+  .big-grid-item {
+    background: rgb(238, 30, 65);
+    background-size: cover;
+    margin-top: 40px;
+    border-radius: 20px;
+    /* grid-auto-columns: span; */
+    grid-column: span 2;
+    color: white;
+    display: flex;
+  }
+  .con {
+    margin: 60px;
+  }
+  .detil{
+    margin-left: 100px;
+  }
+  .con #btn{
+    margin-top: 20px;
+    float: right;
+    border: 2px solid yellow;
+    text-align: center;
+    
+  }
+  .con >#btn >#button{
+    background: yellow;
+    font-size: 12px;
+    margin-left: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+  
+  }
+  .con #put{
+    padding: 5px;
+    
+  }
+  
+  .inc{
+    width: 230px;
+    
+  }
+  .detil {
+    line-height: 2em;
+    font-size: 12px;
+  }
+  .detil input {
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    border: none;
+  }
+  .reserv h2 {
+    font-size: 30px;
+    margin-bottom: none;
+    padding-bottom: none;
+  }
+  
